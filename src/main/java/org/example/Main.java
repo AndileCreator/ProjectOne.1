@@ -24,5 +24,9 @@ public class Main {
 
         GradeCalculator vd = new GradeCalculator(20);
         vd.Outcome();
+
+        NumberAnalysis dv = new NumberAnalysis(32);
+        dv.Check();
+        dv.OddEven();
     }
 }
