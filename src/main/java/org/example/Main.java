@@ -5,9 +5,12 @@ package org.example;
 public class Main {
     static void main() {
         StudentDetails John = new StudentDetails();
-        System.out.println("Student name is:" + John.stdName);
-        System.out.println("Student age is:" + John.stdAge);
+        System.out.println("Student name is: " + John.stdName);
+        System.out.println("Student age is: " + John.stdAge);
         System.out.println("Student average marks are:" + John.avgMarks);
-        System.out.println("Is the student registered" + John.isReg);
+        System.out.println("Is the student registered: " + John.isReg);
+
+        ShoppingTotal banana = new ShoppingTotal("Banana",8,12,0.20);
+        banana.totalCost();
     }
 }
