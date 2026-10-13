@@ -20,4 +20,9 @@ public class PassOrFail {
             System.out.println("Fail");
         }
     }
+    public void Invalid(){
+        if (marks < 0 || marks > 100){
+            System.out.println("Invalid");
+        }
+    }
 }

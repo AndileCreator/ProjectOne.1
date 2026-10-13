@@ -20,5 +20,9 @@ public class Main {
         PassOrFail results = new PassOrFail(50);
         results.Pass();
         results.Fail();
+        results.Invalid();
+
+        GradeCalculator vd = new GradeCalculator(20);
+        vd.Outcome();
     }
 }
