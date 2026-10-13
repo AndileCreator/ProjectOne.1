@@ -16,5 +16,9 @@ public class Main {
         TemperatureConversion heat = new TemperatureConversion(40,40);
         heat.fa();
         heat.ce();
+
+        PassOrFail results = new PassOrFail(50);
+        results.Pass();
+        results.Fail();
     }
 }
