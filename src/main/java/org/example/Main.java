@@ -12,5 +12,9 @@ public class Main {
 
         ShoppingTotal banana = new ShoppingTotal("Banana",8,12,0.20);
         banana.totalCost();
+
+        TemperatureConversion heat = new TemperatureConversion(40,40);
+        heat.fa();
+        heat.ce();
     }
 }
