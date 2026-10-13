@@ -28,5 +28,11 @@ public class Main {
         NumberAnalysis dv = new NumberAnalysis(32);
         dv.Check();
         dv.OddEven();
+
+        LoginCheck credentials = new LoginCheck("Andile","12345678");
+        credentials.Validation("magwaza","987654321");
+        credentials.Validation("Andile","987654321");
+        LoginCheck credentials2 = new LoginCheck("Andile","123456789");
+        credentials2.Validation("Andile","123456789");
     }
 }
