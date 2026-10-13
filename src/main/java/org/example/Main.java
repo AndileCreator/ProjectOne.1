@@ -34,5 +34,9 @@ public class Main {
         credentials.Validation("Andile","987654321");
         LoginCheck credentials2 = new LoginCheck("Andile","123456789");
         credentials2.Validation("Andile","123456789");
+
+        StoreStudentMarks ssm = new StoreStudentMarks(new int[]{30, 32, 24, 34, 40});
+        ssm.StoredMarks();
+        ssm.SumMarks();
     }
 }
