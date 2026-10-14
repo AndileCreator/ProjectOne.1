@@ -37,6 +37,9 @@ public class Main {
 
         StoreStudentMarks ssm = new StoreStudentMarks(new int[]{30, 32, 24, 34, 40});
         ssm.StoredMarks();
-        ssm.SumMarks();
+//        ssm.SumMarks();
+
+        FullStack fs = new FullStack("Andile",23, "Male");
+        fs.showDetails();
     }
 }
