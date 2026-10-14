@@ -48,8 +48,13 @@ public class Main {
         Car c3 = new Car("Green", "BMW", "SUV", 2022);
 
         Car[] cars = {c1,c2,c3};
-        for (int i = 0; i < cars.length; i++) {
-            cars[i].display();
+        for (Car car : cars) {
+            car.display();
         }
+
+        HighestAndLowestValues halv = new HighestAndLowestValues(new int[]{120,90,30,50,70,77,654});
+        halv.highestValue();
+        halv.lowestValue();
     }
+
 }
