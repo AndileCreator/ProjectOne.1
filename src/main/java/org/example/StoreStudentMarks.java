@@ -4,6 +4,7 @@ package org.example;
 //Print each mark using a loop, then calculate and display the total and average.
 public class StoreStudentMarks {
     int [] marks;
+    int sum;
 
     public StoreStudentMarks(int [] _marks) {
         marks = _marks;
@@ -14,11 +15,17 @@ public class StoreStudentMarks {
         }
     }
 
-//    public void SumMarks(){
-//        int i = 0;
-//        for (int mark i = 0; i < mark.length; i++) {
-//            i += marks[i];
-//            System.out.println("Student total marks :" + marks);
-//        }
-//    }
+    public void SumMarks(){
+        for (int mark = 0; mark < marks.length; mark++) {
+            sum += marks[mark];
+        }
+        System.out.println("The total student marks are: " + sum);
+    }
+
+    public void AvgMarks(){
+
+        int avg = 0;
+        avg = sum / 5;
+        System.out.println("The avarage student mark is: " + avg);
+    }
 }

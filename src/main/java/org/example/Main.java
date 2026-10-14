@@ -37,7 +37,8 @@ public class Main {
 
         StoreStudentMarks ssm = new StoreStudentMarks(new int[]{30, 32, 24, 34, 40});
         ssm.StoredMarks();
-//        ssm.SumMarks();
+        ssm.SumMarks();
+        ssm.AvgMarks();
 
         FullStack fs = new FullStack("Andile",23, "Male");
         fs.showDetails();
@@ -47,12 +48,8 @@ public class Main {
         Car c3 = new Car("Green", "BMW", "SUV", 2022);
 
         Car[] cars = {c1,c2,c3};
-        // cars is the name for the array list.
-//        for (int i = 0; i < cars.length; i++) {
-//            cars[i].display();
-//        }
-          for (Car car_ : cars) {
-              car_.display();
-          }
+        for (int i = 0; i < cars.length; i++) {
+            cars[i].display();
+        }
     }
 }
