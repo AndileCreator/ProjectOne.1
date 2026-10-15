@@ -57,6 +57,11 @@ public class Main {
         halv.lowestValue();
         halv.numOfElements();
         halv.numGreaterEqual();
+
+
+        SearchAnArray saa = new SearchAnArray(new int []{10,30,20,24,30,40,30,77},30);
+        saa.targetValueIndex();
+        saa.foundTimes();
     }
 
 }
