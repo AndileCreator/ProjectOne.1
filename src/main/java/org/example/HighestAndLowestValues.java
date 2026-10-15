@@ -29,4 +29,18 @@ public class HighestAndLowestValues {
         System.out.println(min);
     }
 
+    public void numOfElements(){
+        int size = ArrayStatistics.length;
+        System.out.println("The number of elements in this List: " + size);
+    }
+
+    public void numGreaterEqual(){
+        int count = 0;
+        for (int i = 0; i < ArrayStatistics.length; i++) {
+            if  ( ArrayStatistics[i] >= 50){
+                count++;
+            }
+        }
+        System.out.println("The numbers that are greater or equal to 50 are: " + count);
+    }
 }

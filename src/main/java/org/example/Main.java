@@ -55,6 +55,8 @@ public class Main {
         HighestAndLowestValues halv = new HighestAndLowestValues(new int[]{120,90,30,50,70,77,654});
         halv.highestValue();
         halv.lowestValue();
+        halv.numOfElements();
+        halv.numGreaterEqual();
     }
 
 }
