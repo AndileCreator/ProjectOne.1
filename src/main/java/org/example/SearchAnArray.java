@@ -1,6 +1,7 @@
 package org.example;
 //Exercise 3.3: Search an array
-//Create ArraySearch. Search an integer array for a target value.
+//Create ArraySearch.
+//Search an integer array for a target value.
 //Display its index if found, or Value not found otherwise.
 //Challenge: Report every matching index if the target appears more than once.
 

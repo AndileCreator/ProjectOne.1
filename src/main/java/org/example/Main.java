@@ -62,6 +62,10 @@ public class Main {
         SearchAnArray saa = new SearchAnArray(new int []{10,30,20,24,30,40,30,77},30);
         saa.targetValueIndex();
         saa.foundTimes();
+
+        SeparateEvenAndOddNumbers seaon = new SeparateEvenAndOddNumbers(new int []{0,1,2,3,4,5,6,7,8,9});
+        seaon.searchEvenOddNumbers();
+        seaon.sortingArray();
     }
 
 }
