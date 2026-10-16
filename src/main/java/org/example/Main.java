@@ -76,6 +76,11 @@ public class Main {
         sc.hasPassed();
         sc2.displayDetails();
         sc2.hasPassed();
+
+        BankAccount ba =  new BankAccount("Andile Bank","22234197",50);
+        ba.deposit(400);
+        ba.withdraw(500);
+        ba.getBalance();
     }
 
 }
