@@ -85,6 +85,12 @@ public class Main {
         ProductInventory pi = new ProductInventory("Brd12345","Bread",22.50,52);
         pi.displayDetails();
         pi.stock();
-    }
 
+        Rectangle r = new Rectangle(15,25);
+        Rectangle r2 = new Rectangle(45,35);
+        r.area();
+        r.perimeter();
+        r2.area();
+        r2.perimeter();
+    }
 }
