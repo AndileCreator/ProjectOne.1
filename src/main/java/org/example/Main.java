@@ -81,6 +81,10 @@ public class Main {
         ba.deposit(400);
         ba.withdraw(500);
         ba.getBalance();
+
+        ProductInventory pi = new ProductInventory("Brd12345","Bread",22.50,52);
+        pi.displayDetails();
+        pi.stock();
     }
 
 }
