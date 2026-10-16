@@ -92,5 +92,8 @@ public class Main {
         r.perimeter();
         r2.area();
         r2.perimeter();
+
+        CombiningTheConcepts ctc = new CombiningTheConcepts("Andile Magwaza","22234157",new int[]{67,90,88});
+        ctc.calcAverage();
     }
 }
