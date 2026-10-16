@@ -69,6 +69,13 @@ public class Main {
 
 //        ReverseAnArray raa = new ReverseAnArray(new int []{0,1,2,3,4,5,6,7,8,9});
 //        raa.reverse(); this needs more research as of the moment i find it challenging and no understanding.
+
+        StudentClass sc = new StudentClass("Andile Magwaza","22234197",49);
+        StudentClass sc2 = new StudentClass("Andile Toyota","22234107",70);
+        sc.displayDetails();
+        sc.hasPassed();
+        sc2.displayDetails();
+        sc2.hasPassed();
     }
 
 }
